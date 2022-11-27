@@ -152,7 +152,7 @@ def pregunta_01():
     En esta función se realiza la carga de datos.
     """
     # Lea el archivo `german.csv` y asignelo al DataFrame `df`
-    df = pd.read_csv('E:\TEMP_ MASTER\maquinas-de-vectores-de-soporte-para-clasificacion-german-alosanchezvi-main\german.csv')
+    df = pd.read_csv('german.csv')
 
     # Asigne la columna `default` a la variable `y`.
     y = df['default']
